@@ -1,6 +1,6 @@
 # Maven-Market-Analysis-PowerBI
 
-Power BI Basic Queries, DAX, and Visualizations for class assignment.
+##Following assignment queries were Solved successfully.
 
 Instructions:
 
