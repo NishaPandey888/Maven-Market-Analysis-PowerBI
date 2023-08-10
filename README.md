@@ -1,5 +1,7 @@
 # Maven-Market-Analysis-PowerBI
+
 Power BI Basic Queries, DAX, and Visualizations for class assignment.
+
 Instructions:
 
 Maven Market is a multi-national grocery chain with locations in Canada, Mexico, and the United States. You have to perform the task of connecting and shaping the source data, building a relational model, adding calculated columns and measures, and designing a report using different visuals. Refer to the following files in the MavenMarket_dataset folder on Teams:
