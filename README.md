@@ -6,14 +6,14 @@ Instructions:
 
 Maven Market is a multi-national grocery chain with locations in Canada, Mexico, and the United States. You have to perform the task of connecting and shaping the source data, building a relational model, adding calculated columns and measures, and designing a report using different visuals. Refer to the following files in the MavenMarket_dataset folder on Teams:
 
-MavenMarket_Calendar.csv
-MavenMarket_Customers.csv
-MavenMarket_Products.csv
-MavenMarket_Regions.csv
-MavenMarket_Returns_1997-1998.csv
-MavenMarket_Stores.csv
-MavenMarket_Transactions_1997.csv
-MavenMarket_Transactions_1998.csv
+1.MavenMarket_Calendar.csv
+2.MavenMarket_Customers.csv
+3.MavenMarket_Products.csv
+4.MavenMarket_Regions.csv
+5.MavenMarket_Returns_1997-1998.csv
+6.MavenMarket_Stores.csv
+7.MavenMarket_Transactions_1997.csv
+8.MavenMarket_Transactions_1998.csv
 Open a new PowerBI Desktop file and perform the tasks mentioned below. Save this file as yourPRN_MavenMarket.pbix file which should be submitted on Microsoft Teams:
 Check that Locale for import is set to "English (United States)" in the Regional Settings tab
 Connect to the MavenMarket_Customers csv file a. Name the table "Customers", and make sure that headers have been promoted b. Confirm that data types are accurate (Note: "customer_id" should be whole numbers, and both "customer_acct_num" and "customer_postal_code" should be text) c. Add a new column named "full_name" to merge the "first_name" and "last_name" columns, separated by a space. Create a new column named "birth_year" to extract the year from the "birthdate" column, and format it as text e. Create a conditional column named "has_children" which equals "N" if "total_children" = 0, otherwise "Y"
